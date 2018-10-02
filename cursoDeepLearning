@@ -1,0 +1,34 @@
+Execute o comando abaixo para criar seu ambiente:
+conda create -n tensorflow python=3.5
+
+Para ativar o seu ambiente execute o comando:
+No Windows : activate tensorflow
+No Linux: source activate tensorflow
+
+Após ativar o ambiente, execute os comandos:
+pip install --ignore-installed --upgrade tensorflow
+pip install keras
+pip install matplotlib
+
+
+=== Conteúdo
+- Perceptron
+- Multi Layers Perceptron (MLP)
+- Funções de ativação (Processamento de imagem, indicado ReLU)
+- Simulaçao de dados
+
+
+1. Conhecimento dos dados
+2. Limpeza dos dados3
+3. Treinamentos, teste e validação
+
+
+
+
+Redes convulucionais
+
+
+CNN (Convolutional Neural Network)
+
+- Classificação, classificação+posição, localização,segmentação
+- Label: one hot encode
